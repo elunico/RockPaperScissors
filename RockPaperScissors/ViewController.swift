@@ -39,20 +39,17 @@ class ViewController: UIViewController {
             if cpumove == "Rock" {
                 ties = ties + 1
                 tLabel.text = String(ties)
-                Int(ties)
                 winner.text = "tie!"
                 
             }
             else if cpumove == "Paper" {
                 loses = loses + 1
                 cLabel.text = String(loses)
-                Int(loses)
                 winner.text = "CPU"
             }
             else if cpumove == "Scissors" {
                 wins = wins + 1
                 pLabel.text = String(wins)
-                Int(wins)
                 winner.text = "Player!"
             }
         }
@@ -60,21 +57,18 @@ class ViewController: UIViewController {
             if cpumove == "Paper" {
                 ties = ties + 1
                 tLabel.text = String(ties)
-                Int(ties)
                 winner.text = "tie!"
                 
             }
             else if cpumove == "Scissors" {
                 loses = loses + 1
                 cLabel.text = String(loses)
-                Int(loses)
                 winner.text = "CPU"
                 
             }
             else if cpumove == "Rock" {
                 wins = wins + 1
                 pLabel.text = String(wins)
-                Int(wins)
                 winner.text = "Player!"
                 
             }
@@ -83,21 +77,18 @@ class ViewController: UIViewController {
             if cpumove == "Scissors" {
                 ties = ties + 1
                 tLabel.text = String(ties)
-                Int(ties)
                 winner.text = "tie!"
                 
             }
             else if cpumove == "Rock" {
                 loses = loses + 1
                 cLabel.text = String(loses)
-                Int(loses)
                 winner.text = "CPU"
                 
             }
             else if cpumove == "Paper" {
                 wins = wins + 1
                 pLabel.text = String(wins)
-                Int(wins)
                 winner.text = "Player!"
                 
             }
